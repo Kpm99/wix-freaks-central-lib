@@ -10,7 +10,7 @@ function calculateBMI(config) {
         resultBoxId,
         measurementSystem = "imperial", // Default to imperial (feet, inches)
         bmiCategories = getDefaultBMICategories(), // Default BMI categories
-    } = config;
+    } = config
 
     const weight = parseFloat($w(weightInputId).value); // Weight
     const heightFeet = parseFloat($w(heightInputId).value); // Height in feet or meters
